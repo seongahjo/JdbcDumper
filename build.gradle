@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.ahjo'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter:5.6.2')
+    testCompile('org.mockito:mockito-junit-jupiter:3.5.7')
+    testCompile('org.assertj:assertj-core:3.6.1')
+}
